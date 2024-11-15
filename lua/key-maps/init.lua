@@ -10,5 +10,3 @@ vim.keymap.set("n", "<C-Up>", "<cmd>resize +2<CR>", opts)
 vim.keymap.set("n", "<C-Down>", "<cmd>resize -2<CR>", opts)
 vim.keymap.set("n", "<C-Left>", "<cmd>vertical resize -2<CR>", opts)
 vim.keymap.set("n", "<C-Right>", "<cmd>vertical resize +2<CR>", opts)
-
-vim.keymap.set("n", "<C-n>", "<cmd>Neotree toggle<CR>", { desc = "toggle Neotree" })
