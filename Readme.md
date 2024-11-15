@@ -4,16 +4,16 @@
 
 ```
 .
-|-- Readme.md
-|-- init.lua
-|-- lazy-lock.json
-|-- lua
-    |-- key-maps.lua
-    |-- plugin-manager.lua
-    |-- vim-opts.lua
-    |-- plugins
-        |-- ...
-        |-- ...
+|__ Readme.md
+|__ init.lua
+|__ lazy-lock.json
+|__ lua
+    |__ key-maps.lua
+    |__ plugin-manager.lua
+    |__ vim-opts.lua
+    |__ plugins
+        |__ ...
+        |__ ...
 ```
 - At the project root directory, the `init.lua` is the main entrypoint to the nvim config.
 - The lua folder contains the rest of the lua code that the `init.lua` requires.
