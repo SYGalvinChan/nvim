@@ -1,6 +1,13 @@
 # Nvim Basic
 
-# Folder Structure
+## Usage
+This project should be cloned into the nvim config folder
+
+To find the nvim config folder for your computer, open `nvim` and type `:echo stdpath("config")`.
+
+Navigate to the path printed and clone this repository `git clone git@github.com:SYGalvinChan/nvim.git`
+
+## Folder Structure
 
 ```
 .
