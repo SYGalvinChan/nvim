@@ -19,6 +19,8 @@ return {
                 mappings = {
                     ["h"] = "close_node",
                     ["l"] = "open",
+                    ["|"] = "open_vsplit",
+                    ["_"] = "open_split",
                 }
             }
         })

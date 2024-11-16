@@ -1,12 +1,16 @@
 # Nvim Basic
 
 ## Usage
-This project should be cloned into the nvim config folder
+```
+mkdir -p ~/.config/nvim
 
-To find the nvim config folder for your computer, open `nvim` and type `:echo stdpath("config")`.
+cd ~/.config/nvim
 
-Navigate to the path printed and clone this repository.
+git clone https://github.com/SYGalvinChan/nvim.git
 
+nvim
+
+```
 ## Folder Structure
 
 ```

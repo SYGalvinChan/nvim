@@ -15,7 +15,7 @@ opt.scrolloff = 10
 opt.incsearch = true
 opt.hlsearch = true
 
-opt.signcolumn = 'yes'
+opt.signcolumn = "yes"
 opt.cursorline = true
 
 opt.splitbelow = true
