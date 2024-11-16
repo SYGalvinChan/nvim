@@ -9,7 +9,6 @@ cd ~/.config/nvim
 git clone https://github.com/SYGalvinChan/nvim.git
 
 nvim
-
 ```
 ## Folder Structure
 
