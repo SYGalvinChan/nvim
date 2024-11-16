@@ -1,8 +1,8 @@
 return {
     "nvim-treesitter/nvim-treesitter-context",
-	dependencies = { "nvim-treesitter/nvim-treesitter" },
-    config = function ()
-        require("treesitter-context").setup{
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    config = function()
+        require("treesitter-context").setup {
             enable = true,
             multiwindow = false,
             max_lines = 0,

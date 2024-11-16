@@ -1,5 +1,5 @@
 local function make_opts(desc)
-    return { 
+    return {
         noremap = true,
         silent = true,
         desc = desc

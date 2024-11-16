@@ -62,7 +62,7 @@ M.config = function()
         },
     }
     require("mason-lspconfig").setup_handlers({
-        function (server_name)
+        function(server_name)
             require("lspconfig")[server_name].setup({
                 on_attach = M.on_attach,
                 settings = servers_settings[server_name],
@@ -73,8 +73,8 @@ M.config = function()
         border = "rounded",
     })
     vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, {
-		border = "rounded",
-	})
+        border = "rounded",
+    })
     require("lspconfig.ui.windows").default_options.border = "rounded"
 end
 
