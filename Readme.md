@@ -1,10 +1,10 @@
 # Nvim Basic
 
 ## Usage
-```
-mkdir -p ~/.config/nvim
+```bash
+mkdir -p ~/.config
 
-cd ~/.config/nvim
+cd ~/.config
 
 git clone https://github.com/SYGalvinChan/nvim.git
 

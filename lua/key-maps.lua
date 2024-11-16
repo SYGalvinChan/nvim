@@ -6,6 +6,9 @@ local function make_opts(desc)
     }
 end
 
+-- split windows
+vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", make_opts("vertical split"))
+vim.keymap.set("n", "<leader>_", "<cmd>split<CR>", make_opts("horizontal split"))
 -- navigate between windows
 vim.keymap.set("n", "<C-h>", "<C-w>h", make_opts("switch window left"))
 vim.keymap.set("n", "<C-l>", "<C-w>l", make_opts("switch window right"))
