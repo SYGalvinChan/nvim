@@ -14,6 +14,12 @@ return {
                 filtered_items = {
                     hide_dotfiles = false
                 }
+            },
+            window = {
+                mappings = {
+                    ["h"] = "close_node",
+                    ["l"] = "open",
+                }
             }
         })
         vim.keymap.set("n", "<C-n>", "<cmd>Neotree toggle<CR>", { desc = "toggle Neotree" })

@@ -23,3 +23,5 @@ vim.keymap.set("i", "<C-h>", "<Left>", make_opts("move left"))
 vim.keymap.set("i", "<C-j>", "<Down>", make_opts("move down"))
 vim.keymap.set("i", "<C-k>", "<Up>", make_opts("move up"))
 vim.keymap.set("i", "<C-l>", "<Right>", make_opts("move right"))
+-- clear highlighting after search
+vim.keymap.set("n", "<leader>ch", "<cmd>noh<CR>", make_opts("clear highlighting"))
