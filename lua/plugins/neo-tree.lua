@@ -11,6 +11,7 @@ return {
         require("neo-tree").setup({
             close_if_last_window = true,
             filesystem = {
+                follow_current_file = true,
                 filtered_items = {
                     hide_dotfiles = false
                 }
@@ -21,6 +22,16 @@ return {
                     ["l"] = "open",
                     ["|"] = "open_vsplit",
                     ["_"] = "open_split",
+                    ["<BS>"] = "none",
+                    ["o"] = "add",
+                    ["oc"] = "none",
+                    ["od"] = "none",
+                    ["og"] = "none",
+                    ["om"] = "none",
+                    ["on"] = "none",
+                    ["os"] = "none",
+                    ["ot"] = "none",
+
                 }
             }
         })

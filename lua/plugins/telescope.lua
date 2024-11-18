@@ -9,9 +9,22 @@ return {
     },
     config = function()
         require("telescope").setup({
+            defaults = {
+                mappings = {
+                    i = {
+                        ["<C-j>"] = "move_selection_next",
+                        ["<C-k>"] = "move_selection_previous"
+                    }
+                }
+            },
             pickers = {
                 buffers = {
-                    initial_mode = "normal"
+                    initial_mode = "normal",
+                    mappings = {
+                        n = {
+                            ["d"] = require("telescope.actions").delete_buffer
+                        }
+                    }
                 }
             },
         })
@@ -22,5 +35,7 @@ return {
         vim.keymap.set("n", "<leader>fh", telescope_builtin.help_tags, { desc = "Telescope help tags" })
         vim.keymap.set("n", "<leader>fc", telescope_builtin.colorscheme, { desc = "Telescope colorscheme" })
         vim.keymap.set("n", "<leader>fs", telescope_builtin.grep_string, { desc = "Telescope grep string" })
+        vim.keymap.set("n", "<leader>fd", telescope_builtin.lsp_definitions, { desc = "Telescope lsp definitions" })
+        vim.keymap.set("n", "<leader>fr", telescope_builtin.lsp_references, { desc = "Telescope lsp references" })
     end
 }
