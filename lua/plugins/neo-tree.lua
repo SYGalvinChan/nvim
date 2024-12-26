@@ -13,7 +13,8 @@ return {
             filesystem = {
                 follow_current_file = true,
                 filtered_items = {
-                    hide_dotfiles = false
+                    hide_dotfiles = false,
+                    hide_gitignored = false,
                 }
             },
             window = {
@@ -35,6 +36,8 @@ return {
                 }
             }
         })
-        vim.keymap.set("n", "<C-n>", "<cmd>Neotree toggle<CR>", { desc = "toggle Neotree" })
+        vim.cmd([[
+        command! -nargs=* Ex Neotree toggle
+        ]])
     end
 }

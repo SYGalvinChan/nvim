@@ -34,3 +34,6 @@ opt.termguicolors = true
 opt.backup = false
 
 opt.swapfile = false
+
+
+-- add more changes

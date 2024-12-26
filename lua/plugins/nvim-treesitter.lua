@@ -16,7 +16,8 @@ return {
                 "lua",
                 "jsdoc",
                 "bash",
-                "go"
+                "go",
+                "sql"
             },
             sync_install = false,
             auto_install = true,

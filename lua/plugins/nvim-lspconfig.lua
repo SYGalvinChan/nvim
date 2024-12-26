@@ -37,6 +37,7 @@ M.config = function()
             "jsonls",
             "yamlls",
             "gopls",
+            "sqlls"
         },
     })
     local servers_settings = {

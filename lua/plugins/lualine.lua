@@ -13,7 +13,14 @@ return {
                     winbar = {},
                 },
                 ignore_focus = {
-                    "neo-tree"
+                    "neo-tree",
+                    "dapui_scopes",
+                    "dapui_breakpoints",
+                    "dapui_stacks",
+                    "dapui_watches",
+                    "dap-repl",
+                    "dapui_console",
+                    "qf",
                 },
                 always_divide_middle = true,
                 always_show_tabline = true,
