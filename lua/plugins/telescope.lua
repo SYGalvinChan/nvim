@@ -25,6 +25,9 @@ return {
                             ["d"] = require("telescope.actions").delete_buffer
                         }
                     }
+                },
+                colorscheme = {
+                    initial_mode = "normal"
                 }
             },
         })

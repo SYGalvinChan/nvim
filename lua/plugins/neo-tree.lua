@@ -35,6 +35,9 @@ return {
                 }
             }
         })
-        vim.keymap.set("n", "<C-n>", "<cmd>Neotree toggle<CR>", { desc = "toggle Neotree" })
+        vim.cmd([[
+        command! -nargs=* Ex Neotree toggle
+        ]])
+        vim.keymap.set("n", "<C-n>", "<cmd>Neotree focus<CR>", { desc = "jump Neotree" })
     end
 }

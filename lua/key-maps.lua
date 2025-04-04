@@ -6,6 +6,8 @@ local function make_opts(desc)
     }
 end
 
+-- disable command history window
+vim.keymap.set("n", "q:", "<nop>", make_opts("Disable command history"))
 -- split windows
 vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", make_opts("vertical split"))
 vim.keymap.set("n", "<leader>_", "<cmd>split<CR>", make_opts("horizontal split"))
