@@ -16,7 +16,8 @@ return {
                 "lua",
                 "jsdoc",
                 "bash",
-                "go"
+                "go",
+                "tmux"
             },
             sync_install = false,
             auto_install = true,

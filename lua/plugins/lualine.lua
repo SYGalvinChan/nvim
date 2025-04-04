@@ -13,7 +13,8 @@ return {
                     winbar = {},
                 },
                 ignore_focus = {
-                    "neo-tree"
+                    "neo-tree",
+                    "help"
                 },
                 always_divide_middle = true,
                 always_show_tabline = true,

@@ -22,7 +22,7 @@ vim.keymap.set("n", "<C-Down>", "<cmd>resize -2<CR>", make_opts("resize window v
 vim.keymap.set("n", "<C-Left>", "<cmd>vertical resize -2<CR>", make_opts("resize window horizontal"))
 vim.keymap.set("n", "<C-Right>", "<cmd>vertical resize +2<CR>", make_opts("resize window horizontal"))
 -- move while in insert mode
-vim.keymap.set("i", "<C-a>", "<ESC>^i", make_opts("move to start of line"))
+vim.keymap.set("i", "<C-a>", "<Home>", make_opts("move to start of line"))
 vim.keymap.set("i", "<C-e>", "<End>", make_opts("move to end of line"))
 vim.keymap.set("i", "<C-h>", "<Left>", make_opts("move left"))
 vim.keymap.set("i", "<C-j>", "<Down>", make_opts("move down"))
